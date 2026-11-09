@@ -4,8 +4,8 @@ Sixteen agent skills that take a feature from a PRD to a written contract, an im
 its tests, and an external evaluation that sends every failure to the skill that fixes it, until
 the feature meets its contract.
 
-This repository holds the documentation only. The skills are sold on
-[Agensi](https://www.agensi.io) as the **Spec-Driven Dev Pack**. See it work in a
+This repository holds the documentation only. The skills are sold on Agensi as the
+[**Spec-Driven Dev Pack**](https://www.agensi.io/skills/spec-driven-dev-pack). See it work in a
 [77-second replay of a real run](https://youtu.be/xy86flNAlAU).
 
 ![The evaluator's report for a feature, stamped CLEAN after one correction round](images/evaluated-clean.png)
@@ -46,7 +46,7 @@ PER FEATURE
 You never download the skills: Agensi serves them to your agent each time it uses one, always in
 the latest approved version, and updates are free.
 
-1. Buy the Spec-Driven Dev Pack on [Agensi](https://www.agensi.io).
+1. Buy the [Spec-Driven Dev Pack](https://www.agensi.io/skills/spec-driven-dev-pack) on Agensi.
 2. Connect your agent to Agensi's MCP server once:
    - **Claude Code:** `claude mcp add --transport http agensi https://mcp.agensi.io/mcp/auth`, then
      run `/mcp` and choose **Authenticate**.

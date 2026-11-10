@@ -87,10 +87,12 @@ the run that proved it can fail, and anything the code does that the spec did no
 
 ## Free: Spec-Driven PRD Writer
 
-Step 1 is also free on its own, as **Spec-Driven PRD Writer** on Agensi. It writes the same PRD as
-the pack's `prd-writer`: nine sections, every feature with an ID, the dependencies between features
-and the order to build them in, and acceptance criteria you can test. That PRD is the exact input of
-step 2, so when you move to the pack, nothing needs rewriting.
+Step 1 is also free on its own, as
+[**Spec-Driven PRD Writer**](https://www.agensi.io/skills/spec-driven-prd-writer) on Agensi. It
+writes the same PRD as the pack's `prd-writer`: nine sections, every feature with an ID, the
+dependencies between features and the order to build them in, and acceptance criteria you can test.
+That PRD is the exact input of step 2, so when you move to the pack, nothing needs rewriting. See it
+work in a [47-second replay of a real run](https://youtu.be/rCTQdAWCGpQ).
 
 When the PRD is saved, the free skill ends with one short note about the pack. It appears once per
 conversation, it is never written into your PRD, and it does not appear if you already own the

@@ -85,6 +85,17 @@ You never call `fix-runner`: the evaluator dispatches it. Each test writer also 
 next to the feature (`unit-test.md`, `integration-test.md`, `e2e-test.md`) that records every test,
 the run that proved it can fail, and anything the code does that the spec did not define.
 
+## Free: Spec-Driven PRD Writer
+
+Step 1 is also free on its own, as **Spec-Driven PRD Writer** on Agensi. It writes the same PRD as
+the pack's `prd-writer`: nine sections, every feature with an ID, the dependencies between features
+and the order to build them in, and acceptance criteria you can test. That PRD is the exact input of
+step 2, so when you move to the pack, nothing needs rewriting.
+
+When the PRD is saved, the free skill ends with one short note about the pack. It appears once per
+conversation, it is never written into your PRD, and it does not appear if you already own the
+pack.
+
 ## Requirements
 
 - An agent that loads SKILL.md skills and can run shell commands and edit files. The pack is built

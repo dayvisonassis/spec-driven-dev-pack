@@ -100,8 +100,8 @@ pack.
 
 ## Fault Lines: find the files to refactor first
 
-**Fault Lines** is a separate skill on Agensi for JavaScript and TypeScript
-projects. It answers one question before a refactoring starts: which files would break the most of
+[**Fault Lines**](https://www.agensi.io/skills/fault-lines-find-the-files-to-refactor-first) is a
+separate skill on Agensi for JavaScript and TypeScript projects. It answers one question before a refactoring starts: which files would break the most of
 the system if they broke, and which to fix first. It crosses each file's blast radius (how many
 modules stop working if it fails, directly or through others) against its size, so small files
 that everything imports, the healthy foundation, stay out of the queue, and the big files the

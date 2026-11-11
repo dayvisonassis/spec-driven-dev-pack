@@ -98,6 +98,25 @@ When the PRD is saved, the free skill ends with one short note about the pack. I
 conversation, it is never written into your PRD, and it does not appear if you already own the
 pack.
 
+## Fault Lines: find the files to refactor first
+
+**Fault Lines** is a separate skill on Agensi for JavaScript and TypeScript
+projects. It answers one question before a refactoring starts: which files would break the most of
+the system if they broke, and which to fix first. It crosses each file's blast radius (how many
+modules stop working if it fails, directly or through others) against its size, so small files
+that everything imports, the healthy foundation, stay out of the queue, and the big files the
+system depends on come first.
+
+Your agent produces a standalone HTML report: a chart of every file with the pain zone drawn from
+thresholds calibrated to your codebase, the links of any file you click, the ranked refactoring
+queue, and detectors for dependency cycles, amplifiers and orphans. Run it again after refactoring
+and the agent tells you what moved. See it on Ghost, the open-source publishing platform, in a
+[short demo](https://youtu.be/i7E8Gpp8AIA).
+
+On the first run it asks before installing its analysis tooling (madge and TypeScript, pinned)
+once, in a per-user cache outside your project. It writes one config file and one report folder,
+and needs Node.js 18 or later and npm. More languages are coming soon.
+
 ## Requirements
 
 - An agent that loads SKILL.md skills and can run shell commands and edit files. The pack is built
